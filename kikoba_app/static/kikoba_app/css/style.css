@@ -1,0 +1,53 @@
+/* .top_header {
+
+    box-sizing: border-box;
+    width: 100%;
+} */
+
+.top_header img {
+    width: 130px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-section {
+    width: 100%;
+    height: 750px;
+    /* background-image: url("{% static 'kikoba_app/images/bgbg.jpg' %}"); */
+    background-image: url('../images/bgbg.jpg');
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+/* .main-section::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.32;
+    background-color: #2F3D26;;
+} */
+
+/* .points{
+    list-style: none;
+    padding-left: 0;
+}
+
+.points li {
+    padding-left: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.points li::before {
+
+    content: '';
+	position: absolute;
+	left: 0;
+	top: 6px;
+	width: 1em;
+	height: 1em;
+	background-repeat: no-repeat;
+	background-image: url("https://v.fastcdn.co/u/6430ff65/49559490-0-checkmark-light.svg");
+
+} */
